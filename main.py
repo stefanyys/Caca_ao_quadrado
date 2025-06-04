@@ -1,5 +1,5 @@
-from controllers.game_controller import iniciar_jogo
-
+from models.jogo import Jogo
 
 if __name__ == "__main__":
-    iniciar_jogo()
+    jogo = Jogo()
+    jogo.executar()
